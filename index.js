@@ -57,5 +57,5 @@ app.get('/update', function (req, res) {
 var port = 5709
 
 app.listen(port, function () {
-  util.log('stop-server listening on port ' + port)
+  util.log('CMD-App listening on port ' + port)
 })
